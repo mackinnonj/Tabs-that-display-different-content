@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-weight: 400;
+    font-size: 1.32rem;
+}
+
+[data-tab-info] {
+    display: none;
+}
+
+.active[data-tab-info] {
+    display: block;
+}
+
+.tabs, span {
+    display: flex;
+    border: black solid 1px;
+    
+    border-radius: .4rem;
+}
+
+.tabs {
+    padding: 0 0 ;
+
+}
+
+span {
+    background-color: #32FE7B;
+    padding: 1rem;
+}
