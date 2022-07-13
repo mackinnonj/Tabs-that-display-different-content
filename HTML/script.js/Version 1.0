@@ -13,17 +13,17 @@
     
     <div class="tabs">
 
-        <div>
-            <span data-tab-value="#tab-1" >Tab 1</span>
-        </div>
+       
+            <span data-tab-value="#tab_1" >Tab 1</span>
+        
 
-        <div>
-            <span data-tab-value="#tab-1" >Tab 2</span>
-        </div>
+        
+            <span data-tab-value="#tab_2" >Tab 2</span>
+        
 
-        <div>
-            <span data-tab-value="#tab-1" >Tab 3</span>
-        </div>
+        
+            <span data-tab-value="#tab_3" >Tab 3</span>
+        
         
     </div>
 
