@@ -31,13 +31,12 @@
         <div class="tabs__tab" id="tab_2" data-tab-info>
             <p>Welcome to the second tab</p>
         </div>
-        
+
         <div class="tabs__tab" id="tab_3" data-tab-info>
             <p>Last but not least the third tab</p>
         </div>
 
     </div>
-
 
     <script>
         const tabs = document.querySelectorAll('[data-tab-value]');
@@ -46,7 +45,7 @@
         // "tabs" is a declared constant above which represents the data-tab-value in the spans //
         tabs.forEach(tab => {
 
-            // tab refers to the 3 divs with span in them //
+            // tab refers to the data-tab-value in the 3 divs with span in them //
             tab.addEventListener('click', () => {
                 const target = document.querySelector(tab.dataset.tabValue);
 
